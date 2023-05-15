@@ -64,6 +64,7 @@ void authentication_page()
         break;
     default:
         printf("wrong input");
+        getch();
        system("cls");
 authentication_page();
         break;
